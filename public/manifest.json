@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "InstaPassKey",
+  "version": "0.0.1",
+  "description": "Generador instantáneo de contraseñas personalizables",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": []
+}
