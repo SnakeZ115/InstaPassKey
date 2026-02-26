@@ -10,7 +10,7 @@ function App() {
   const [length, setLength] = useState<number>(24);
 
   return (
-    <div className="w-5 min-h-130 mx-auto overflow-hidden flex flex-col shadow-2xl bg-background-light dark:bg-background-dark font-display">
+    <div className="w-[380px] min-h-[520px] mx-auto overflow-hidden flex flex-col shadow-2xl bg-background-light dark:bg-background-dark font-display">
       <Header />
       <main className="flex-1 p-5 space-y-6">
         <PasswordDisplay value={password} onRefresh={() => console.log('Refrescar')} />
